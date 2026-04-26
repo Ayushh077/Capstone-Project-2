@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const initialSubs = [
-  { id: 1, name: "Netflix",         cost: 649,  category: "Entertainment", renewal: "2025-04-28", icon: "🎬", color: "#e50914" },
-  { id: 2, name: "Spotify",         cost: 119,  category: "Music",         renewal: "2025-05-10", icon: "🎵", color: "#1db954" },
-  { id: 3, name: "Amazon Prime",    cost: 299,  category: "Shopping",      renewal: "2025-05-30", icon: "📦", color: "#ff9900" },
-  { id: 4, name: "YouTube Premium", cost: 189,  category: "Entertainment", renewal: "2025-05-20", icon: "▶️", color: "#ff0000" },
+  { id: 1, name: "Netflix",         cost: 649,  category: "Entertainment", renewal: "2026-04-28", icon: "🎬", color: "#e50914" },
+  { id: 2, name: "Spotify",         cost: 119,  category: "Music",         renewal: "2026-05-10", icon: "🎵", color: "#1db954" },
+  { id: 3, name: "Amazon Prime",    cost: 299,  category: "Shopping",      renewal: "2026-05-30", icon: "📦", color: "#ff9900" },
+  { id: 4, name: "YouTube Premium", cost: 189,  category: "Entertainment", renewal: "2026-05-20", icon: "▶️", color: "#ff0000" },
 ];
 
 const CATEGORIES = ["Entertainment", "Music", "Shopping", "Productivity", "Education", "Health", "Other"];
